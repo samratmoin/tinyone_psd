@@ -1,0 +1,161 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+/*header style start*/
+.menu ul li a{
+	padding: 0 0 !important;
+	text-align: right;
+	font-size:20px;
+ }
+ /*header style end*/
+ /*slider start*/
+.slider{
+	padding-bottom: 80px;
+}
+.s_content{
+	margin-top: 10px;
+}
+.s_content h1{
+	font-size: 25px;
+}
+.s_content p{
+	margin-bottom: 10px;
+}
+.c_ci {
+    bottom: -50px;
+}
+.s_icon li{
+	margin-right: 20px !important;
+}
+/*slider end*/
+/*feature start*/
+.service{
+	padding: 50px 0 40px;
+}
+.title{
+	margin-bottom: 30px;
+}
+.t_p{
+	font-size: 18px;
+}
+.single-feature{
+	margin-bottom: 40px;
+}
+.ser_text{
+  margin-top: 0;
+  text-align: center;
+}
+/*feature end*/
+/*contact start*/
+.contact-form input{
+	height: 45px;
+}
+.btn-submit{
+	margin-top: 20px;
+	margin-left: 0;
+	width:100%;
+	height: 45px;
+}
+.social{
+    padding: 40px 0 20px;
+}/*contact end*/
+
+/*footer start*/
+.f_content {
+    text-align: center;
+}
+.f_text ul{
+	margin-left: -40px;
+}
+.f_text {
+    padding-top: 30px;
+}
+.foot_t{
+    text-align: right;
+/*footer end*/
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+/*header style start*/
+.menu ul li a{
+	padding: 0 0 !important;
+	text-align: right;
+ }
+/*header style end*/
+/*slider start*/
+.slider{
+	padding-bottom: 80px;
+}
+.s_content{
+	margin-top: 10px;
+}
+.c_ci {
+    bottom: -50px;
+}
+/*slider end*/
+/*feature start*/
+.service{
+	padding: 70px 0 50px;
+}
+.title{
+	margin-bottom: 40px;
+}
+.t_p{
+	font-size: 18px;
+}
+.single-feature{
+	margin-bottom: 40px;
+}
+.ser_text{
+  margin-top: 0;
+  text-align: center;
+}
+/*feature end*/
+/*contact start*/
+.contact-form input{
+	height: 45px;
+}
+.btn-submit{
+	width:110px;
+	height: 45px;
+}
+/*contact end*/
+/*footer start*/
+
+.f_content{
+    text-align: center;
+}
+.f_text ul{
+	margin-left: -40px;
+}
+.f_text {
+    padding-top: 30px;
+}
+
+.foot_t{
+    text-align: right;
+    
+}
+/*footer end*/
+  }
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+/*header style start*/
+.menu ul li a{
+	padding: 0 0 !important;
+	text-align: right;
+ }
+ /*header style end*/
+ /*slider start*/
+  .s_content{
+     margin-top: 30px;
+  }
+ /*slider end*/
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { ... }
